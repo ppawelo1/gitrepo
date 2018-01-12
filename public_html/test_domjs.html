@@ -1,0 +1,22 @@
+<p id="akapit1"> Winter is comming</p>
+<p class = 'wazne'> Snow is alive</p>
+<h2 class = "wazne">The North</h2>
+<p class = 'wazne'> Game of Thrones</p>
+<p> Game of Thrones</p>
+
+<script>
+  var akapit1 = document.getElementById('akapit1');
+  akapit1.innerHTML = "<b>Winter</b> is here";
+  var tekst = akapit1.innerHTML;
+  var tekst2 = akapit1.innerText;
+  console.log(tekst2);
+  var akapity = document.getElementsByTagName("p");
+  console.log(akapity.length);
+  for (i =0; i <akapity.length; i++){
+    console.log(akapity[i].innerHTML);
+  }
+  akapity[1].style.backgroundColor = "#FFCCFF";
+
+  var wazne = document.getElementsByClaasName("wazne");
+  console.log(wazne[0].nodeName);
+</script>

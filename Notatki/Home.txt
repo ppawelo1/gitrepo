@@ -1,0 +1,32 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-01-12T12:20:47+01:00
+
+====== Home ======
+Created piątek 12 styczeń 2018
+
+$ - wszytko się tym zaczyna
+
+$("seslktor" lub 'selektor').akcja
+
+w jQuery pierwszym sposobem selekcvji jest selekcja elementu z identyfikatorem (#)
+
+$('#login') wybranie elementu z identyfikatorem
+
+===== Kolejność nawiasów w jQuery =====
+
+$("seslktor" lub 'selektor').akcja( function(){
+działania;
+});
+
+===== Dołączanie jQuery do strony =====
+
+dołączna jest za pomocą CDN-ów
+
+===== Przykładowe metody =====
+
+.hide(), ukryj
+.show(), pokaż
+.toggle() łączy powyższe
+.fadeIn(),
+.fadeOut() 
