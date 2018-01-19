@@ -30,3 +30,5 @@ dołączna jest za pomocą CDN-ów
 .toggle() łączy powyższe
 .fadeIn(),
 .fadeOut() 
+
+
